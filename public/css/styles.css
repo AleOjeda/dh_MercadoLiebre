@@ -4,6 +4,47 @@
     box-sizing: border-box; 
 }
 
+:root {
+    /* Paleta de colores */
+    --default-amarillo: #EAC926;
+    --default-azul: #03264C;
+    --default-celeste: #1259c3;
+    --default-gris-oscuro: #666;
+    --default-gris-claro: #ebebeb;
+    --default--verde: #39b54a;
+    
+    /* Tipografías */
+    --default-family: 'Roboto';
+    /* Tamaños Tipográficos */
+    --default-font-size: 12px;
+    --default-titulares: 24px;  /* (Basado en tu última visita/Ofertas) */
+    --default-price: 18px;
+    --default-discount: 16px;
+    --default-description: 16px;
+}
+
 body {
-    background-color: red;
+    background-color: var(--default-amarillo);
+    font-family: var(--default-family);
+}
+
+.titulares {
+    font-size: var(--default-titulares);
+}
+.precio{
+    font-size: var(--default-price);
+}
+.descuento{
+    font-size: var(--default-discount);
+}
+.descripcion{
+    font-size: var(--default-description);
+}
+.icono {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--default-celeste)
+}
+footer > article {
+    text-align: center;
 }
