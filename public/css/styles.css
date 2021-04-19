@@ -57,6 +57,10 @@ header{
 .container header nav{
     display:none;
 }
+.container header nav a{
+padding: 2px;
+margin: 2px;
+}
 .contenedor-nav{
     display:flex;
     justify-content: space-between;
@@ -157,4 +161,73 @@ footer > article {
     .container-flexbox article {
         max-width: 20%;
     }
+}
+
+
+/* //////////Formularios////////// */
+
+.registerForm{
+    max-width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 0.5em;
+}
+
+.registerForm form {
+    font-size: var(--default-description);
+}
+.row{
+    margin: 15px auto;
+    align-content: center;
+    border-top: none;
+}
+input{
+    border: 2px solid var(--default-gris-claro);
+    height: 2em;
+    margin: auto 10px;
+    display: inline-block;
+}
+label{
+    height: 2em;
+    display: flex;
+    align-items: center;
+}
+.intereses{
+    border:none;
+}
+
+.registerForm form button{
+    height: 3rem;
+    width: 49%;
+    background-color:var(--default-celeste);
+    color:white;
+    font-size: 1em;
+    font-family: var(--default-family);
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+.loginForm{
+    max-width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 20px;
+}
+.loginForm .row {
+    text-align: center;
+}
+.loginForm .row input {
+    width: 100%;
+    margin: 10px 0;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+}
+.loginForm button{
+    height: 3rem;
+    width: 100%;
+    background-color:var(--default-celeste);
+    color:white;
+    font-size: 1em;
+    font-family: var(--default-family);
+    border-radius: 0.5rem;
 }
