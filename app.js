@@ -8,7 +8,7 @@ app.use(express.static('public'));
 ///Levanto Servidor
 //Para cuando agregue Heroku
 //app.listen(process.env.PORT || 4000, () => console.log('El servidor está corriendo en el puerto 3000'));
-app.listen(3000, () => console.log('El servidor está corriendo en el puerto 3000', 'http://localhost:3000'));
+app.listen(process.env.PORT || 3000  , () => console.log('Servidor Ok', 'http://localhost:3000'));
 ///Rutas a los recursos */
 
     //Home
