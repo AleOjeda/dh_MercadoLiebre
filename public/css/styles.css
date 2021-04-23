@@ -146,6 +146,9 @@ footer > article {
 footer  i:hover {
     color: #1632a3;
 }
+.copyright{
+    margin-bottom: 10px; 
+}
 
 /* //////////Responsive////////// */
 @media (min-width: 361px){
