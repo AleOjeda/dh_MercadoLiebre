@@ -138,6 +138,7 @@ main section article div p{
 footer{
     display:flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 footer > article {
     text-align: center;
