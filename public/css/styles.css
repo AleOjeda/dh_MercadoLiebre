@@ -149,7 +149,9 @@ footer  i:hover {
 .copyright{
     margin-bottom: 10px; 
 }
-
+main section article:hover i{
+    transform: rotate(-0.25turn);
+}
 /* //////////Responsive////////// */
 @media (min-width: 361px){
 
